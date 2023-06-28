@@ -1,0 +1,28 @@
+ .container {
+    background: linear-gradient(to bottom, #45aaf2, #0069d9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .weather-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  .weather-icon {
+    margin-bottom: 30px;
+  }
+  
+  .weather-details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .weather-details p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
